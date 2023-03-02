@@ -50,7 +50,7 @@ nav{
     color: #E5E7EB;
 }
 
-.hero-container {
+#about{
     display: flex;
     margin: auto;
     width: 80%;
@@ -92,7 +92,7 @@ nav{
     height: auto;
 }
 
-.hero-container img{
+#about img{
     border-radius: 25px;
     max-width: 100%;
     height: auto;
