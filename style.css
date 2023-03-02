@@ -7,6 +7,8 @@ html, body{
 }
     
 body{
+    background-image: url(../odin-landingpage/images/background.jpg);
+    background-repeat: no-repeat;
     display: block;
 }
 
@@ -15,7 +17,7 @@ div{
 }
 
 .header-bg{
-    background-color: #1F2937;
+    background-color: #000000;
 }
 
 nav{
@@ -44,7 +46,7 @@ nav{
 
 .nav-links a{
     text-decoration: none;
-    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    text-shadow: 2px 4px 4px rgba(48, 157, 201, 0.6);
     font-weight: bold;
     font-size: 20px;
     color: #E5E7EB;
@@ -64,6 +66,7 @@ nav{
 }
 
 .hero-main h1{
+    text-shadow: 2px 4px 4px rgba(48, 157, 201, 0.6);
     font-weight: bolder;
     font-size: 48px;
     color: #F9FAF8;
@@ -87,13 +90,73 @@ nav{
 
 .hero-image{
     border-radius: 25px;
-    box-shadow: 12px 12px 2px 1px rgba(2, 2, 2, 0.2);
     width: 500px;
     height: auto;
 }
 
 #about img{
-    border-radius: 25px;
+    filter: drop-shadow(-10px -10px 10px rgba(48, 157, 201, 0.6));
     max-width: 100%;
     height: auto;
 }
+
+#universe{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 550px;
+    margin: auto;
+}
+
+#universe h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #d7d9db;
+    align-self: center;
+    margin-top: 70px;
+    text-shadow: 2px 4px 4px rgba(48, 157, 201, 0.6);
+}
+
+.miniature-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.miniature{
+    width: 15%;
+    height: 200px;
+}
+
+.miniature img{
+    border: 5px solid rgba(48, 157, 201, 0.6);
+    border-radius: 25px;
+    margin-top: 60px;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mini-text{
+    color: #E5E7EB;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
