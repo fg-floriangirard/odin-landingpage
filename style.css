@@ -50,5 +50,50 @@ nav{
     color: #E5E7EB;
 }
 
+.hero-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.hero-main{
+    width: 35%;
+}
 
+.hero-main h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-main p{
+    margin: 20px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button{
+    border: none;
+    width: 70px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.hero-image{
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(2, 2, 2, 0.2);
+    width: 500px;
+    height: auto;
+}
+
+.hero-container img{
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}
