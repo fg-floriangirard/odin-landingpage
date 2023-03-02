@@ -145,7 +145,40 @@ nav{
     margin-right: 20px;
 }
 
+#quote{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background: #000000;
+    opacity: .6;
+    border-radius: 25px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
 
+blockquote{
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #E5E7EB;
+    align-items: center;
+    text-align: center;
+}
+
+figcaption{
+    color: #E5E7EB;
+    text-align: end;
+    margin-right: 250px;
+}
+
+cite{
+    color: #E5E7EB;
+    text-align: end;
+    margin-right: 115px;
+}
 
 
 
