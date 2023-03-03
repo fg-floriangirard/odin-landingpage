@@ -218,8 +218,8 @@ strong{
 
 .signup-div{
     display: flex;
-    margin-left: 180px;
     align-items: center;
+    padding-left: 100px;
 }
 
 .signup-div button{
